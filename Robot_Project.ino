@@ -1,3 +1,6 @@
+//2110 octets (6%) de l'espace de stockage
+//222 octets (10%) de mémoire dynamique
+
 #include "Arduino.h"
 #include "pin.h"//define pin
 #include "initialisation.h"
