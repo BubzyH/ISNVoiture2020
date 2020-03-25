@@ -1,8 +1,9 @@
+//VERSION 1.0
 void initialisation(){
 //mode pin
-//recepteur IR
-pinMode(IRGauche, INPUT);
-pinMode(IRDroit, INPUT);
+//IR
+pinMode(IRGauche, INPUT_PULLUP);
+pinMode(IRDroit, INPUT_PULLUP);
 //moteur
 pinMode(moteurGauche, OUTPUT);
 pinMode(gaucheMove, OUTPUT);
