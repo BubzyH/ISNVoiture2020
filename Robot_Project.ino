@@ -1,6 +1,4 @@
-//2110 octets (6%) de l'espace de stockage
-//222 octets (10%) de mémoire dynamique
-
+//VERSION 1.0
 #include "Arduino.h"
 #include "pin.h"//define pin
 #include "initialisation.h"
@@ -8,7 +6,6 @@
 #include "IR.h" //fonction
 
 int mode =1; //0 = conduite, 1 = ir, 2  = ultrason
-
 void setup() {
  initialisation();
 }

@@ -1,3 +1,4 @@
+//VERSION 1.0
 //recepeteur IR
 const char IRGauche=10; //recepteur ir gauche
 const char IRDroit=11; //recepteur ir droit
